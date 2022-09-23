@@ -1,0 +1,21 @@
+.search{
+    background-color: #dfdede;
+    height: 3rem;
+    width: 50vw;
+    margin: .5rem 0;
+    display: flex;
+}
+
+input{
+    box-sizing: border-box;
+    flex:0.9;
+    padding: 1rem;
+    font-size: 1rem; 
+}
+
+.searchIcon{
+    flex:0.1;
+    align-self: center;
+    font-size: 2rem;
+}
+

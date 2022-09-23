@@ -1,0 +1,45 @@
+.card{
+    min-height: 5rem;
+    width: 55vw;
+    color: white;
+    background:linear-gradient(to right, #2F89FC,#0ABCF9);        
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    margin: .5rem 0;
+    display: flex;
+}
+
+.note{
+    flex:0.8;
+    padding:1.8rem
+}
+
+.note>p{
+    font-size: 1.2rem;
+}
+
+.update{
+    flex:0.1;
+    align-self: center;
+    text-align: center;
+}
+
+.delete{
+    flex:0.1;
+    align-self: center;
+    text-align: center;
+}
+
+
+.updateIcon,.deleteIcon{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.deleteIcon:hover{
+    color:red;
+}
+
+.updateIcon:hover{
+    color:gray;
+}
